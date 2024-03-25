@@ -1,16 +1,47 @@
-### Hi there 👋
+class Attributes(antilag):
+    @staticmethod
+    def channels() -> str:
+        """
+        Returns the Discord channel for professional communication.
 
-<!--
-**r8st/r8st** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        :return: Discord channel link
+        """
+        discord = "discord.gg/perdition-development-824027700851245138"
+        return discord
 
-Here are some ideas to get you started:
+    @staticmethod
+    def contact() -> str:
+        """
+        Returns the preferred contact handle for professional inquiries.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        :return: Discord handle
+        """
+        discord = "r8st"
+        return discord
+
+    @staticmethod
+    def life() -> tuple:
+        """
+        Returns information about language proficiency and age.
+
+        :return: Tuple containing languages and age
+        """
+        langs = ['Turkish', 'English']
+        age = 16
+        return langs, age
+
+    @staticmethod
+    def coding() -> tuple:
+        """
+        Returns information about coding expertise, specialties, and development environment.
+
+        :return: Tuple containing languages, specialties, and development environment
+        """
+        langs = {
+            'expert': ['python'],
+            'intermediate': ['js', 'c#'],
+            'learning': ['golang']
+        }
+        specialities = ['web/app reverse engineering', 'fullstack']
+        environnement = ['vscode']
+        return langs, specialities, environnement
