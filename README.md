@@ -1,4 +1,4 @@
-[![MasterHead](https://cdn.discordapp.com/attachments/1203763906657394688/1221849023242047769/r8st.png?ex=66141293&is=66019d93&hm=1f466f7fe162f1e217a9acc4af3e1806b80c44913fe91c244d0f0e055fb8e3c6&)
+![MasterHead](https://cdn.discordapp.com/attachments/1203763906657394688/1221849023242047769/r8st.png?ex=66141293&is=66019d93&hm=1f466f7fe162f1e217a9acc4af3e1806b80c44913fe91c244d0f0e055fb8e3c6&)
 
 
     :return: Discord channel link
