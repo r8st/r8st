@@ -1,4 +1,4 @@
-class Attributes(antilag):
+class Attributes(r8st):
     @staticmethod
     def channels() -> str:
         """
@@ -6,7 +6,7 @@ class Attributes(antilag):
 
         :return: Discord channel link
         """
-        discord = "discord.gg/perdition-development-824027700851245138"
+        discord = "discord.gg/has1mrp"
         return discord
 
     @staticmethod
@@ -38,7 +38,7 @@ class Attributes(antilag):
         :return: Tuple containing languages, specialties, and development environment
         """
         langs = {
-            'expert': ['python'],
+            'expert': ['Node'],
             'intermediate': ['js', 'c#'],
             'learning': ['golang']
         }
